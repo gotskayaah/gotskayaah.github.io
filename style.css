@@ -1,0 +1,59 @@
+::-webkit-scrollbar {
+    display: none;
+}
+html {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+    body {
+      margin: 0;
+      height: 100vh;
+      width: 100%;
+    background: linear-gradient(to bottom, #dfe5e9, #748186);
+    background-attachment: fixed;
+      color: #748186;
+      font-family: "Courier New", monospace;
+      font-size: 2rem;
+      letter-spacing: 0.2em;
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      
+    }
+    .spread {
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+    }
+    
+    body a {
+        color: #748186;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+
+    body a:hover {
+        color: #b4c9d0
+    }
+
+    #loader {
+        animation: fade 2s ease-in-out infinite;
+    }
+
+    main {
+        visibility: hidden;
+    }
+
+
+    @keyframes fade {
+      0%, 100% {
+        opacity: 0.2;
+      }
+      50% {
+        opacity: 1;
+      }
+    }
+
+    

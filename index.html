@@ -4,40 +4,17 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>loading</title>
-
-  <style>
-    body {
-      margin: 0;
-      height: 100vh;
-      background: #dfe5e9;
-
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .loading {
-      color: #748186;
-      font-family: "Courier New", monospace;
-      font-size: 2rem;
-      letter-spacing: 0.2em;
-
-      animation: fade 2s ease-in-out infinite;
-    }
-
-    @keyframes fade {
-      0%, 100% {
-        opacity: 0.2;
-      }
-      50% {
-        opacity: 1;
-      }
-    }
-  </style>
+  <title>welcome home</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <div class="loading">loading</div>
+  <div id="loader">loading</div>
+  <main>
+    <p class="spread"><a href="brush.html" title="paintings, drawings, sketchbooks, everything">brush</a> <a href="shutter.html" title="photography">shutter</a></p>
+    <p>welcome home</p>
+    <p class="spread"><a href="poetry.html" title="words, words, words">poetry</a> <a href="stories.html" title="do not read this before bed">stories</a> </p>
+  </main>
+
+<script src="script.js"></script>
 </body>
 </html>
