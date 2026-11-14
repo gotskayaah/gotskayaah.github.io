@@ -14,7 +14,7 @@ html {
     background-attachment: fixed;
       color: #748186;
       font-family: "Courier New", monospace;
-      font-size: 2rem;
+      font-size: clamp(1rem, 3vw, 2rem);
       letter-spacing: 0.2em;
       display: flex;
       text-align: center;
